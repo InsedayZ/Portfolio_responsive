@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Nathan ZOUHOU – Humanités Numériques, Python, Streamlit, IA.">
+  <meta name="keywords" content="Nathan ZOUHOU, portfolio, humanités numériques, Python, Streamlit, IA, développement web">
+  <meta name="author" content="Nathan ZOUHOU">
+
+  <title>Nathan ZOUHOU • Portfolio</title>
+
+  <!-- Polices & icônes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style_ameliore.css">
+</head>
+
+<body>
+  <!-- Lien d'évitement -->
+  <a href="#main-content" class="skip-link" aria-label="Aller au contenu principal">Aller au contenu principal</a>
+
+  <!-- ===== HEADER & NAVIGATION ===== -->
+  <header class="header" role="banner">
+    <nav class="navbar" aria-label="Navigation principale">
+      <div class="nav-container">
+        <div class="nav-brand"><span class="brand-text">Nathan</span><span class="brand-accent">ZOUHOU</span></div>
+
+        <!-- Burger mobile -->
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger"></span><span class="hamburger"></span><span class="hamburger"></span>
+        </button>
+
+        <ul class="nav-links" id="nav-menu" role="menubar">
+          <li role="none"><a href="#about"       role="menuitem">À propos</a></li>
+          <li role="none"><a href="#timeline"    role="menuitem">Parcours</a></li>
+          <li role="none"><a href="#skills"      role="menuitem">Compétences</a></li>
+          <li role="none"><a href="#portfolio"   role="menuitem">Projets</a></li>
+          <li role="none"><a href="#quote"       role="menuitem">Citation</a></li>
+          <li role="none"><a href="#contact"     role="menuitem">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="main-content">
+      <div class="hero-container">
+        <div class="split-screen">
+          <div class="side left" data-aos="fade-right">
+            <div class="side-content">
+              <h1 class="hero-title"><span class="creative-icon">🎨</span>Créatif</h1>
+              <p class="hero-subtitle">Humanités numériques</p>
+              <div class="side-decoration" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="center-portrait" data-aos="zoom-in" data-aos-delay="200">
+            <div class="portrait-container">
+              <img src="portrait.png" alt="Portrait de Nathan ZOUHOU" class="portrait-image">
+              <div class="portrait-glow" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="side right" data-aos="fade-left">
+            <div class="side-content">
+              <h1 class="hero-title"><span class="code-text">&lt;/Codeur&gt;</span></h1>
+              <p class="hero-subtitle">Python&nbsp;|&nbsp;Streamlit&nbsp;|&nbsp;IA</p>
+              <div class="side-decoration" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Indicateur scroll -->
+        <div class="scroll-indicator" aria-hidden="true">
+          <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+          <span class="scroll-text">Découvrir</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- ===== À PROPOS ===== -->
+  <section id="about" class="section about-section" aria-labelledby="about-title">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 id="about-title" class="section-title"><span class="title-icon">👋</span>À propos de moi</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+          <p class="intro-text">Bonjour ! Je m'appelle <strong>Nathan ZOUHOU</strong>, passionné par les Humanités Numériques. J'aime fusionner culture, technologie et créativité pour donner vie à des projets interactifs.</p>
+
+          <blockquote class="highlight-quote" data-aos="fade-up" data-aos-delay="200">
+            <p>Un diplôme peut certifier un savoir, mais il ne dira jamais combien de vis j'ai vissées, de lignes de code que j'ai testées ou de rêves que j'ai transformés en projets.</p>
+          </blockquote>
+        </div>
+
+        <div class="about-image" data-aos="fade-left" data-aos-delay="300">
+          <div class="image-container">
+            <img src="Foot.jpg" alt="Nathan jouant au football" class="about-img">
+            <div class="image-overlay"><span class="overlay-text">Passion Football</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TIMELINE ===== -->
+  <section id="timeline" class="section timeline-section" aria-labelledby="timeline-title">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 id="timeline-title" class="section-title"><span class="title-icon">📚</span>Mon Parcours</h2>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <!-- Entrées -->
+        <article class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <time class="timeline-year">2020</time>
+            <h3 class="timeline-title">Licence Études de Développement – SHS</h3>
+            <p class="timeline-description">Fondation en sciences humaines avec gestion de projet.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <time class="timeline-year">2022</time>
+            <h3 class="timeline-title">Études de Développement SHS</h3>
+            <p class="timeline-description">Approfondissement des enjeux de coopération internationale.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <time class="timeline-year">2023</time>
+            <h3 class="timeline-title">Spécialisation en Management Commercial</h3>
+            <p class="timeline-description">Compétences en stratégie commerciale et marketing digital.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <time class="timeline-year">2024</time>
+            <h3 class="timeline-title">Auto-formation Python / Streamlit / IA Générative / GitHub</h3>
+            <p class="timeline-description">Développement de compétences back-end et data-viz.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item current" data-aos="fade-up" data-aos-delay="500">
+          <div class="timeline-marker current"></div>
+          <div class="timeline-content">
+            <time class="timeline-year">2025</time>
+            <h3 class="timeline-title">Cursus Humanités Numériques (à venir)</h3>
+            <p class="timeline-description">Spécialisation culture & technologies digitales.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPÉTENCES ===== -->
+  <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 id="skills-title" class="section-title"><span class="title-icon">🧠</span>Compétences</h2>
+      </div>
+
+      <!-- Filtres -->
+      <div class="filter-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="filter-buttons" role="tablist">
+          <button class="filter-btn active" data-filter="all" aria-selected="true">Toutes</button>
+          <button class="filter-btn" data-filter="data" aria-selected="false">Data</button>
+          <button class="filter-btn" data-filter="web"  aria-selected="false">Web</button>
+          <button class="filter-btn" data-filter="pm"   aria-selected="false">Projet</button>
+        </div>
+      </div>
+
+      <!-- Grille -->
+      <div id="skills-grid" class="skills-grid">
+        <div class="skill-card data" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-icon"><i data-lucide="code"></i></div>
+          <h3 class="skill-name">Python</h3>
+          <div class="skill-level"><span class="stars">★★★★★</span><span class="sr-only">Expert</span></div>
+          <p class="skill-description">Scripts, automation, data science.</p>
+        </div>
+
+        <div class="skill-card data" data-aos="fade-up" data-aos-delay="250">
+          <div class="skill-icon"><i data-lucide="bar-chart-3"></i></div>
+          <h3 class="skill-name">Power BI</h3>
+          <div class="skill-level"><span class="stars">★★★★★</span><span class="sr-only">Expert</span></div>
+          <p class="skill-description">Dashboards interactifs.</p>
+        </div>
+
+        <div class="skill-card web" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-icon"><i data-lucide="layout-dashboard"></i></div>
+          <h3 class="skill-name">Streamlit</h3>
+          <div class="skill-level"><span class="stars">★★★★★</span><span class="sr-only">Expert</span></div>
+          <p class="skill-description">Apps data-driven.</p>
+        </div>
+
+        <div class="skill-card web" data-aos="fade-up" data-aos-delay="350">
+          <div class="skill-icon"><i data-lucide="globe"></i></div>
+          <h3 class="skill-name">HTML/CSS</h3>
+          <div class="skill-level"><span class="stars">★★★★☆</span><span class="sr-only">Avancé</span></div>
+          <p class="skill-description">Intégration responsive.</p>
+        </div>
+
+        <div class="skill-card pm" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-icon"><i data-lucide="gantt-chart"></i></div>
+          <h3 class="skill-name">MS Project</h3>
+          <div class="skill-level"><span class="stars">★★★★★</span><span class="sr-only">Expert</span></div>
+          <p class="skill-description">Planification agile.</p>
+        </div>
+
+        <div class="skill-card data" data-aos="fade-up" data-aos-delay="450">
+          <div class="skill-icon"><i data-lucide="git-branch"></i></div>
+          <h3 class="skill-name">Git/GitHub</h3>
+          <div class="skill-level"><span class="stars">★★★★☆</span><span class="sr-only">Avancé</span></div>
+          <p class="skill-description">Versioning & CI/CD.</p>
+        </div>
+      </div>
+
+      <!-- Soft skills -->
+      <div class="soft-skills-section" data-aos="fade-up" data-aos-delay="500">
+        <h3 class="soft-skills-title"><span class="title-icon">🤝</span>Soft Skills</h3>
+        <div class="soft-skills-grid">
+          <div class="soft-skill-badge creativity"><span>💡</span>Créativité</div>
+          <div class="soft-skill-badge determination"><span>🔥</span>Détermination</div>
+          <div class="soft-skill-badge curiosity"><span>🧠</span>Curiosité</div>
+          <div class="soft-skill-badge rigor"><span>🔧</span>Rigueur</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section portfolio-section" aria-labelledby="portfolio-title">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 id="portfolio-title" class="section-title"><span class="title-icon">💼</span>Portfolio de Projets</h2>
+        <p class="section-subtitle">Exemples concrets de réalisations.</p>
+      </div>
+
+      <!-- Conteneur avec défilement horizontal -->
+      <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-scroll">
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image-container">
+              <img src="projet1.jpg" alt="CV interactif" class="project-img">
+              <div class="project-overlay">
+                <div class="project-overlay-content">
+                  <h3 class="project-overlay-title">CV interactif</h3>
+                  <p class="project-overlay-desc">Application interactive développée avec Streamlit pour présenter mon parcours de manière dynamique.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">CV interactif</h3>
+              <p class="project-desc">CV interactif avec Streamlit pour une présentation dynamique et moderne.</p>
+              <ul class="project-tags">
+                <li class="tag">Python</li>
+                <li class="tag">Streamlit</li>
+                <li class="tag">Data Viz</li>
+              </ul>
+              <a class="project-link" href="https://github.com/InsedayZ/cv_streamlit.git" target="_blank" rel="noopener" aria-label="Voir le projet CV interactif sur GitHub">
+                <i data-lucide="external-link"></i>
+                <span>Voir le projet</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image-container">
+              <img src="projet2.jpg" alt="Portfolio Web" class="project-img">
+              <div class="project-overlay">
+                <div class="project-overlay-content">
+                  <h3 class="project-overlay-title">Portfolio responsive</h3>
+                  <p class="project-overlay-desc">Site web personnel développé avec HTML, CSS et JavaScript, optimisé pour tous les appareils.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Portfolio responsive</h3>
+              <p class="project-desc">Site statique performant et accessible, optimisé pour tous les appareils.</p>
+              <ul class="project-tags">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <a class="project-link" href="https://github.com/InsedayZ/portfolio" target="_blank" rel="noopener" aria-label="Voir le projet Portfolio responsive sur GitHub">
+                <i data-lucide="external-link"></i>
+                <span>Voir le projet</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="project-image-container">
+              <img src="projet3.jpg" alt="Corpus & Visualisation" class="project-img">
+              <div class="project-overlay">
+                <div class="project-overlay-content">
+                  <h3 class="project-overlay-title">Corpus & Visualisation</h3>
+                  <p class="project-overlay-desc">Analyse approfondie de données bibliographiques avec visualisations interactives et storytelling.</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Corpus & Visualisation</h3>
+              <p class="project-desc">Analyse de données de livres avec visualisations interactives et storytelling.</p>
+              <ul class="project-tags">
+                <li class="tag">Python</li>
+                <li class="tag">Power BI</li>
+                <li class="tag">Storytelling</li>
+              </ul>
+              <a class="project-link" href="https://github.com/InsedayZ/dataviz-collection-livres.git" target="_blank" rel="noopener" aria-label="Voir l'étude Corpus & Visualisation sur GitHub">
+                <i data-lucide="external-link"></i>
+                <span>Voir l'étude</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Indicateurs de navigation -->
+        <div class="portfolio-nav" aria-label="Navigation des projets">
+          <button class="nav-btn nav-prev" aria-label="Projet précédent" disabled>
+            <i data-lucide="chevron-left"></i>
+          </button>
+          <div class="nav-dots">
+            <button class="nav-dot active" aria-label="Aller au projet 1"></button>
+            <button class="nav-dot" aria-label="Aller au projet 2"></button>
+            <button class="nav-dot" aria-label="Aller au projet 3"></button>
+          </div>
+          <button class="nav-btn nav-next" aria-label="Projet suivant">
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CITATION ===== -->
+  <section id="quote" class="section quote-section" aria-labelledby="quote-title">
+    <div class="container">
+      <blockquote class="main-quote" data-aos="fade-up">
+        <p>Un diplôme peut certifier un savoir, mais il ne dira jamais combien de vis j'ai vissées, de lignes de code que j'ai testées ou de rêves que j'ai transformés en projets.</p>
+      </blockquote>
+
+      <div class="quote-author" data-aos="zoom-in" data-aos-delay="200">
+        <img src="avatar.png" alt="Avatar de Nathan ZOUHOU" class="avatar">
+        <div class="author-info">
+          <cite class="author-name">Nathan ZOUHOU</cite><span class="author-title">Humanités Numériques</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 id="contact-title" class="section-title"><span class="title-icon">📫</span>Me Contacter</h2>
+        <p class="section-subtitle">Discutons de vos projets.</p>
+      </div>
+
+      <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://github.com/InsedayZ" class="github-button" target="_blank" rel="noopener">
+          <i data-lucide="github"></i><span>Mon GitHub</span><i data-lucide="external-link" class="external-icon"></i>
+        </a>
+        <p class="contact-text">Explorez mes dépôts et collaborations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2025 Nathan ZOUHOU.</p>
+        <div class="footer-links"><a href="#about">À propos</a><a href="#contact">Contact</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts externes -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script_ameliore.js"></script>
+</body>
+</html>
+
+
